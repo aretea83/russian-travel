@@ -2,9 +2,21 @@
   background-color: #2A2C2F;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 28px 48px;
+  padding: 28px 48px 56px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px 16px 48px;
+  }
 }
